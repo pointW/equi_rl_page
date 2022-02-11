@@ -8,7 +8,7 @@
 
 ## Code
 
-[https://github.com/pointW/equi_q_corl21](https://github.com/pointW/equi_rl)
+[https://github.com/pointW/equi_rl](https://github.com/pointW/equi_rl)
 
 ## Citation
 ```
