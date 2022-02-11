@@ -4,3 +4,4 @@ show_downloads: false
 github:
 is_project_page: false
 markdown: kramdown
+theme: jekyll-theme-cayman
