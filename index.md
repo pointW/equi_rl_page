@@ -17,8 +17,8 @@
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -30,9 +30,13 @@ img.rounded {
 </style>
 
 ## Paper
+Published at The Tenth International Conference on Learning Representations (ICLR 2022)
+
+**Spotlight Presentation**
+
 [OpenReview](https://openreview.net/forum?id=7F9cOhdvfk_)
 
-<div>
+<div style="width:100%; display:flex">
   <div class="people_column">
     <img src="img/dian.jpeg" class="rounded">
     <p class="caption">
@@ -40,22 +44,18 @@ img.rounded {
     </p>
   </div>
   <div class="people_column">
-    <img src="img/dian.jpeg" class="rounded">
+    <img src="img/robin.jpeg" class="rounded">
     <p class="caption">
-      <a href="https://pointw.github.io">Dian Wang</a>
+      <a href="http://mathserver.neu.edu/robin/">Robin Walters</a>
     </p>
   </div>
   <div class="people_column">
-    <img src="img/dian.jpeg" class="rounded">
+    <img src="img/rob.jpeg" class="rounded">
     <p class="caption">
-      <a href="https://pointw.github.io">Dian Wang</a>
+      <a href="http://www.ccs.neu.edu/home/rplatt/">Robert Platt</a>
     </p>
   </div>
 </div>
-
-[Dian Wang](https://pointw.github.io), 
-[Robin Walters](http://mathserver.neu.edu/robin/), 
-[Robert Platt](http://www.ccs.neu.edu/home/rplatt/)
 
 Khoury College of Computer Sciences
 Northeastern University
