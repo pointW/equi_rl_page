@@ -32,14 +32,14 @@ img.rounded {
 ## Paper
 [OpenReview](https://openreview.net/forum?id=7F9cOhdvfk_)
 
-<div>
+<p>
   <div class="people_column">
     <img src="img/dian.jpeg" class="rounded">
     <p class="caption">
       <a href="https://pointw.github.io">Dian Wang</a>
     </p>
   </div>
-    <div class="people_column">
+  <div class="people_column">
     <img src="img/dian.jpeg" class="rounded">
     <p class="caption">
       <a href="https://pointw.github.io">Dian Wang</a>
@@ -51,7 +51,7 @@ img.rounded {
       <a href="https://pointw.github.io">Dian Wang</a>
     </p>
   </div>
-</div>
+</p>
 
 [Dian Wang](https://pointw.github.io), 
 [Robin Walters](http://mathserver.neu.edu/robin/), 
