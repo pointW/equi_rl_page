@@ -22,13 +22,13 @@ This work studies the equivariant property in robotic manipulation. We use equiv
   <img src="img/dqn.png" width="250px">
 </p>
 
-In our Equivariant DQN, if the input state of the Q-network is rotated, the output of the Q-network (where the value of each cell in the output 3x3 grid represents the Q-value of moving towards a specific direction) will be rotated by the same amount. 
+In Equivariant DQN, if the input state of the Q-network is rotated, the output of the Q-network (where the value of each cell in the output 3x3 grid represents the Q-value of moving towards a specific direction) will be rotated by the same amount. 
 
 <p align="center">
   <img src="img/actor_critic.png" width="600px">
 </p>
 
-In our Equivariant SAC, if the input state of the actor (left) is rotated, the output action of the actor will be rotated by the same amount. If the input state and action of the critic (right) are rotated, the output Q-value of the critic will remain the same.
+In Equivariant SAC, if the input state of the actor (left) is rotated, the output action of the actor will be rotated by the same amount. If the input state and action of the critic (right) are rotated, the output Q-value of the critic will remain the same.
 
 <style>
 .column {
@@ -75,6 +75,8 @@ In our Equivariant SAC, if the input state of the actor (left) is rotated, the o
     <p class="caption">Corner Picking</p>
   </div>
 </div>
+
+Our Equivariant SAC can solve different manipulation tasks with extraordinarily high sample effeciency.
 
 ## Video
 
