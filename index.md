@@ -27,15 +27,15 @@ img.rounded {
 
 <div>
   <div>
-    <img src="img/dian.jpeg" style="width:150px" class="rounded">
+    <img src="img/dian.jpeg" class="rounded">
     <p class="caption" href="https://pointw.github.io">Dian Wang</p>
   </div>
   <div>
-    <img src="img/dian.jpeg" style="width:150px" class="rounded">
+    <img src="img/dian.jpeg" class="rounded">
     <p class="caption" href="https://pointw.github.io">Dian Wang</p>
   </div>
   <div>
-    <img src="img/dian.jpeg" style="width:150px" class="rounded">
+    <img src="img/dian.jpeg" class="rounded">
     <p class="caption" href="https://pointw.github.io">Dian Wang</p>
   </div>
 </div>
