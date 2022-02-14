@@ -30,10 +30,8 @@ img.rounded {
 </style>
 
 ## Paper
-Published at The Tenth International Conference on Learning Representations (ICLR 2022)
-
-**Spotlight Presentation**
-
+Published at The Tenth International Conference on Learning Representations (ICLR 2022)  
+**Spotlight Presentation**  
 [OpenReview](https://openreview.net/forum?id=7F9cOhdvfk_)
 
 <div style="width:100%; display:flex">
@@ -57,7 +55,7 @@ Published at The Tenth International Conference on Learning Representations (ICL
   </div>
 </div>
 
-Khoury College of Computer Sciences
+Khoury College of Computer Sciences  
 Northeastern University
 
 
