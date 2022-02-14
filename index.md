@@ -64,7 +64,7 @@ Northeastern University
   <img src="img/equi.gif" width="400px">
 </p>
 
-This work studies the equivariant property in robotic manipulation. We use equivariant networks to enforce the equivairance in the structure of the networks to improve the sample efficiency.
+This work studies the SO(2) equivariant property in robotic manipulation. We use equivariant networks to enforce the equivairance in the structure of the networks to improve the sample efficiency.
 
 <p align="center">
   <img src="img/dqn.png" width="250px">
