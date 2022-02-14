@@ -19,6 +19,13 @@ img.rounded {
   border-radius: 50%;
   height: 100px;
   width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.people_column {
+  float: left;
+  width: 150px;
 }
 </style>
 
@@ -26,17 +33,23 @@ img.rounded {
 [OpenReview](https://openreview.net/forum?id=7F9cOhdvfk_)
 
 <div>
-  <div>
+  <div class="people_column">
     <img src="img/dian.jpeg" class="rounded">
-    <a class="caption" href="https://pointw.github.io">Dian Wang</a>
+    <p class="caption">
+      <a href="https://pointw.github.io">Dian Wang</a>
+    </p>
   </div>
-  <div>
+    <div class="people_column">
     <img src="img/dian.jpeg" class="rounded">
-    <p class="caption" href="https://pointw.github.io">Dian Wang</p>
+    <p class="caption">
+      <a href="https://pointw.github.io">Dian Wang</a>
+    </p>
   </div>
-  <div>
+  <div class="people_column">
     <img src="img/dian.jpeg" class="rounded">
-    <p class="caption" href="https://pointw.github.io">Dian Wang</p>
+    <p class="caption">
+      <a href="https://pointw.github.io">Dian Wang</a>
+    </p>
   </div>
 </div>
 
