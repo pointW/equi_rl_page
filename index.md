@@ -1,8 +1,34 @@
 **Abstract:** Equivariant neural networks enforce symmetry within the structure of their convolutional layers, resulting in a substantial improvement in sample efficiency when learning an equivariant or invariant function. Such models are applicable to robotic manipulation learning which can often be formulated as a rotationally symmetric problem. This paper studies equivariant model architectures in the context of Q-learning and actor-critic reinforcement learning. We identify equivariant and invariant characteristics of the optimal Q-function and the optimal policy and propose equivariant DQN and SAC algorithms that leverage this structure. We present experiments that demonstrate that our equivariant versions of DQN and SAC can be significantly more sample efficient than competing algorithms on an important class of robotic manipulation problems.
 
 ## Paper
+[OpenReview](https://openreview.net/forum?id=7F9cOhdvfk_)
+
+[Dian Wang](https://pointw.github.io), 
+[Robin Walters](http://mathserver.neu.edu/robin/), 
+[Robert Platt](http://www.ccs.neu.edu/home/rplatt/)
+
+Khoury College of Computer Sciences
+Northeastern University
+
 
 ## Idea
+<p align="center">
+  <img src="img/equi.gif" width="400px">
+</p>
+
+This work studies the equivariant property in robotic manipulation. We use equivariant networks to enforce the equivairance in the structure of the networks to improve the sample efficiency.
+
+<p align="center">
+  <img src="img/dqn.png" width="300px">
+</p>
+
+In our Equivariant DQN, if the input state of the Q-network is rotated, the output of the Q-network (where the value of each cell in the output 3x3 grid represents the Q-value of moving towards a specific direction) will be rotated by the same amount. 
+
+<p align="center">
+  <img src="img/actor_critic.png" width="600px">
+</p>
+
+In our Equivariant SAC, if the input state of the actor (left) is rotated, the output action of the actor will be rotated by the same amount. If the input state and action of the critic (right) are rotated, the output Q-value of the critic will remain the same.
 
 ## Video
 
