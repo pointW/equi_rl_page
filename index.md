@@ -28,7 +28,7 @@ img.rounded {
 <div>
   <div>
     <img src="img/dian.jpeg" class="rounded">
-    <p class="caption" href="https://pointw.github.io">Dian Wang</p>
+    <a class="caption" href="https://pointw.github.io">Dian Wang</a>
   </div>
   <div>
     <img src="img/dian.jpeg" class="rounded">
