@@ -19,16 +19,64 @@ Northeastern University
 This work studies the equivariant property in robotic manipulation. We use equivariant networks to enforce the equivairance in the structure of the networks to improve the sample efficiency.
 
 <p align="center">
-  <img src="img/dqn.png" width="300px">
+  <img src="img/dqn.png" width="250px">
 </p>
 
-In our Equivariant DQN, if the input state of the Q-network is rotated, the output of the Q-network (where the value of each cell in the output 3x3 grid represents the Q-value of moving towards a specific direction) will be rotated by the same amount. 
+In Equivariant DQN, if the input state of the Q-network is rotated, the output of the Q-network (where the value of each cell in the output 3x3 grid represents the Q-value of moving towards a specific direction) will be rotated by the same amount. 
 
 <p align="center">
   <img src="img/actor_critic.png" width="600px">
 </p>
 
-In our Equivariant SAC, if the input state of the actor (left) is rotated, the output action of the actor will be rotated by the same amount. If the input state and action of the critic (right) are rotated, the output Q-value of the critic will remain the same.
+In Equivariant SAC, if the input state of the actor (left) is rotated, the output action of the actor will be rotated by the same amount. If the input state and action of the critic (right) are rotated, the output Q-value of the critic will remain the same.
+
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+}
+.lc{
+  float: left;
+  width: 16.66%;
+}
+.caption {
+    margin: 0;
+    vertical-align: baseline;
+    text-align: center;
+}
+</style>
+
+<div>
+  <div class="column">
+    <img src="img/pick.gif" style="width:100%">
+    <p class="caption">Object Picking</p>
+  </div>
+  <div class="column">
+    <img src="img/pull.gif" style="width:100%">
+    <p class="caption">Block Pulling</p>
+  </div>
+  <div class="column">
+    <img src="img/drawer.gif" style="width:100%">
+    <p class="caption">Drawer Opening</p>
+  </div>
+</div>
+
+<div>
+  <div class="column">
+    <img src="img/stack.gif" style="width:100%">
+    <p class="caption">Block Stacking</p>
+  </div>
+  <div class="column">
+    <img src="img/h1.gif" style="width:100%">
+    <p class="caption">House Building</p>
+  </div>
+  <div class="column">
+    <img src="img/corner.gif" style="width:100%">
+    <p class="caption">Corner Picking</p>
+  </div>
+</div>
+
+Our Equivariant SAC can solve different manipulation tasks with extraordinarily high sample effeciency.
 
 ## Video
 
