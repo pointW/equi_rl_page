@@ -1,7 +1,44 @@
 **Abstract:** Equivariant neural networks enforce symmetry within the structure of their convolutional layers, resulting in a substantial improvement in sample efficiency when learning an equivariant or invariant function. Such models are applicable to robotic manipulation learning which can often be formulated as a rotationally symmetric problem. This paper studies equivariant model architectures in the context of Q-learning and actor-critic reinforcement learning. We identify equivariant and invariant characteristics of the optimal Q-function and the optimal policy and propose equivariant DQN and SAC algorithms that leverage this structure. We present experiments that demonstrate that our equivariant versions of DQN and SAC can be significantly more sample efficient than competing algorithms on an important class of robotic manipulation problems.
 
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+}
+.lc{
+  float: left;
+  width: 16.66%;
+}
+.caption {
+    margin: 0;
+    vertical-align: baseline;
+    text-align: center;
+}
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+</style>
+
 ## Paper
 [OpenReview](https://openreview.net/forum?id=7F9cOhdvfk_)
+
+<div>
+  <div>
+    <img src="img/dian.jpeg" style="width:150px" class="rounded">
+    <p class="caption" href="https://pointw.github.io">Dian Wang</p>
+  </div>
+  <div>
+    <img src="img/dian.jpeg" style="width:150px" class="rounded">
+    <p class="caption" href="https://pointw.github.io">Dian Wang</p>
+  </div>
+  <div>
+    <img src="img/dian.jpeg" style="width:150px" class="rounded">
+    <p class="caption" href="https://pointw.github.io">Dian Wang</p>
+  </div>
+</div>
 
 [Dian Wang](https://pointw.github.io), 
 [Robin Walters](http://mathserver.neu.edu/robin/), 
@@ -29,22 +66,6 @@ In Equivariant DQN, if the input state of the Q-network is rotated, the output o
 </p>
 
 In Equivariant SAC, if the input state of the actor (left) is rotated, the output action of the actor will be rotated by the same amount. If the input state and action of the critic (right) are rotated, the output Q-value of the critic will remain the same.
-
-<style>
-.column {
-  float: left;
-  width: 33.33%;
-}
-.lc{
-  float: left;
-  width: 16.66%;
-}
-.caption {
-    margin: 0;
-    vertical-align: baseline;
-    text-align: center;
-}
-</style>
 
 <div>
   <div class="column">
