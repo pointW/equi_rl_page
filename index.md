@@ -64,13 +64,13 @@ Northeastern University
   <img src="img/equi.gif" width="400px">
 </p>
 
-This work studies the SO(2) equivariant property in robotic manipulation. We use equivariant networks to enforce the equivairance in the structure of the networks to improve the sample efficiency.
+This work studies the SO(2) equivariant property of robotic manipulation in the context of reinforcement learning. We use equivariant networks to enforce the equivariance in the structure of the networks to improve the sample efficiency.
 
 <p align="center">
   <img src="img/dqn.png" width="250px">
 </p>
 
-In Equivariant DQN, if the input state of the Q-network is rotated, the output of the Q-network (where the value of each cell in the output 3x3 grid represents the Q-value of moving towards a specific direction) will be rotated by the same amount. 
+In Equivariant DQN, if the input state of the Q-network is rotated, the output of the Q-network (where the value of each cell in the 3x3 grid represents the Q-value of moving towards a specific direction) will be rotated by the same amount. 
 
 <p align="center">
   <img src="img/actor_critic.png" width="600px">
