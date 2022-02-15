@@ -118,6 +118,7 @@ Our Equivariant SAC can solve different manipulation tasks with extraordinarily 
 
 ## Citation
 ```
+{% raw %}
 @inproceedings{
 wang2022so2equivariant,
 title={{$\mathrm{SO}(2)$}-Equivariant Reinforcement Learning},
@@ -126,6 +127,7 @@ booktitle={International Conference on Learning Representations},
 year={2022},
 url={https://openreview.net/forum?id=7F9cOhdvfk_}
 }
+{% endraw %}
 ```
 
 ## Contact
