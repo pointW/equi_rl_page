@@ -117,8 +117,8 @@ Our Equivariant SAC can solve different manipulation tasks with extraordinarily 
 [https://github.com/pointW/equi_rl](https://github.com/pointW/equi_rl)
 
 ## Citation
-```
 {% raw %}
+```
 @inproceedings{
 wang2022so2equivariant,
 title={{$\mathrm{SO}(2)$}-Equivariant Reinforcement Learning},
@@ -127,8 +127,8 @@ booktitle={International Conference on Learning Representations},
 year={2022},
 url={https://openreview.net/forum?id=7F9cOhdvfk_}
 }
-{% endraw %}
 ```
+{% endraw %}
 
 ## Contact
 If you have any questions, please feel free to contact [Dian Wang](https://pointw.github.io) at wang[dot]dian[at]northeastern[dot]edu.
