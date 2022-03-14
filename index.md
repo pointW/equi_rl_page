@@ -32,6 +32,7 @@ img.rounded {
 ## Paper
 Published at The Tenth International Conference on Learning Representations (ICLR 2022)  
 **Spotlight Presentation**  
+[arXiv](https://arxiv.org/pdf/2203.04439.pdf)  
 [OpenReview](https://openreview.net/forum?id=7F9cOhdvfk_)
 
 <div style="width:100%; display:flex">
@@ -111,6 +112,10 @@ In Equivariant SAC, if the input state of the actor (left) is rotated, the outpu
 Our Equivariant SAC can solve different manipulation tasks with extraordinarily high sample effeciency.
 
 ## Video
+
+<div style="text-align:center">
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/8Ocwv2nnSKI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 ## Code
 
