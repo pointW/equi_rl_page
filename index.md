@@ -59,6 +59,11 @@ Published at The Tenth International Conference on Learning Representations (ICL
 Khoury College of Computer Sciences  
 Northeastern University
 
+### Poster
+<p><a href="img/dian_iclr22_poster.png">
+<img src="img/dian_iclr22_poster.png" width="300px">
+</a></p>
+
 
 ## Idea
 <p align="center">
