@@ -109,7 +109,39 @@ In Equivariant SAC, if the input state of the actor (left) is rotated, the outpu
   </div>
 </div>
 
-Our Equivariant SAC can solve different manipulation tasks with extraordinarily high sample effeciency.
+Our Equivariant SAC can solve different manipulation tasks with high sample effeciency.
+
+<div>
+  <div class="column">
+    <img src="img/sac_hp.png" style="width:100%">
+    <p class="caption">Object Picking</p>
+  </div>
+  <div class="column">
+    <img src="img/sac_bpull.png" style="width:100%">
+    <p class="caption">Block Pulling</p>
+  </div>
+  <div class="column">
+    <img src="img/sac_do.png" style="width:100%">
+    <p class="caption">Drawer Opening</p>
+  </div>
+</div>
+
+<div>
+  <div class="column">
+    <img src="img/sacfd_bs.png" style="width:100%">
+    <p class="caption">Block Stacking</p>
+  </div>
+  <div class="column">
+    <img src="img/sacfd_h1.png" style="width:100%">
+    <p class="caption">House Building</p>
+  </div>
+  <div class="column">
+    <img src="img/sacfd_bpc.png" style="width:100%">
+    <p class="caption">Corner Picking</p>
+  </div>
+</div>
+
+Our Equivariant method (blue) dramatically outperforms competing baselines, including some sample-efficient baselines using data augmentation.
 
 ## Video
 
