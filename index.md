@@ -17,7 +17,7 @@
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
-  width: 100%; /* You can adjust this value depending on your layout needs */
+  width: 120px; /* You can adjust this value depending on your layout needs */
   height: auto;
   aspect-ratio: 1/1;
   margin-left: auto;
